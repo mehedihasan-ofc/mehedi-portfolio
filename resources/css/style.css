@@ -435,3 +435,14 @@ section {
 /*===========================================================
     FOOTER SECTION
 ============================================================*/
+footer {
+    text-align: center;
+    background: var(--secound-bg-color);
+    padding: 34px;
+}
+
+footer p {
+    font-size: 17px;
+    color: var(--secound-color);
+    letter-spacing: 1px;
+}
