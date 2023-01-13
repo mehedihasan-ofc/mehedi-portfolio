@@ -18,6 +18,12 @@
 @media (max-width: 990px) {
     .home {
         height: 85vh;
+        background-image: none;
+        text-align: center;
+    }
+
+    .newsletter form {
+        display: inline-block;
     }
 
     #menu-icon {
@@ -70,13 +76,18 @@
 
     }
 
+    .center h2 {
+        font-size: 38px;
+    }
+
     .contact {
         grid-template-columns: 1fr;
     }
 
     .contact-img {
-        text-align: center;
-        margin-bottom: 25px;
+        /* text-align: center;
+        margin-bottom: 25px; */
+        display: none;
     }
 
     .contact-form {
@@ -87,5 +98,9 @@
         max-width: 100%;
         width: 760px;
         height: auto;
+    }
+
+    footer p {
+        font-size: 14px;
     }
 }
